@@ -1,8 +1,8 @@
 <?php
 
-	/*
+	/**
 	 * @author Chris West
-	 * @created 12/11/2015
+     * @created 26/08/2016
 	*/
 
     namespace Rest\RestServer;
