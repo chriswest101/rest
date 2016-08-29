@@ -12,4 +12,4 @@ Some tests have been set up on my hosting. Use these links:
 
 http://christophermwest.co.uk/TestAuthoriseEndPoint.php
 http://christophermwest.co.uk/TestMeEndPoint.php
-http://christophermwest.co.uk/TestDeauthoriseEndPoint.php
+http://christophermwest.co.uk/TestDeauthoriseEndPoint.php 

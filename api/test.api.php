@@ -3,7 +3,7 @@
 	/**
 	 * @author Chris West
 	 * @created 27/08/2016
-	*/
+	*/ 
 	
 	use \Rest\RestServer\RestException;
 		

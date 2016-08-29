@@ -2,7 +2,7 @@
 	/**
 	 * @author Chris West
 	 * @created 26/08/2016
-	 */
+	 */ 
 
 	namespace Rest\RestServer;
 	use PDO;
@@ -15,8 +15,8 @@
 
 		public function __construct() {
 			define("DB_HOST", "localhost");
-			define("DB_USER", "acwest10");
-			define("DB_PASS", "Kplant10.");
+			define("DB_USER", "root");
+			define("DB_PASS", "root");
 			
 			parent::__construct("mysql:host=". DB_HOST.";", DB_USER, DB_PASS, array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
 			$this->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_OBJ);

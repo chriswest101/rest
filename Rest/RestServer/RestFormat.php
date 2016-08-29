@@ -6,7 +6,7 @@
 	*/
 
 	namespace Rest\RestServer;
-	
+	 
 	// Constants used in RestServer Class.
 	class RestFormat {
 		const PLAIN = 'text/plain';
