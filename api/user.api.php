@@ -17,7 +17,7 @@
 		 * @param string $userPassword is the password of the user
 		 * @return string security token
 		 */
-		public function authorise($clientId, $clientSecurityCode, $userName, $userPassword) {
+		public function authorise($clientId = false, $clientSecurityCode = false, $userName = false, $userPassword = false) {
 			$this->checkLogin($userName);
 						
 			$this->getClient($clientId);
@@ -42,7 +42,7 @@
 		 * @param string $token is the generated secure token
 		 * @return array array details of client and user
 		 */
-		public function me($token) {
+		public function me($token = false) {
 			$this->checkToken($token);
 				
 			// Check if the token is valid
@@ -77,7 +77,7 @@
 		 * @param string security code of the client
 		 * @param string authorization code
 		 */
-		public function deauthorise($clientId, $clientSecurityCode, $token) {
+		public function deauthorise($clientId = false, $clientSecurityCode = false, $token = false) {
 			$this->checkToken($token);
 			$this->getClient($clientId);
 			
